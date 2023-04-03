@@ -14,7 +14,7 @@ final class FunctionalInterfaces {
     }
 
     /**
-     * @return a constant supplier returning 42
+     * @return a constant supplier returning 42 --
      */
     static Supplier<Integer> L1_toConstant() {
         return () -> 42;
